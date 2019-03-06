@@ -48,7 +48,7 @@ education:
       university: 中国科学技术信息研究所
       time: 2013.09 - 2016.01
       details: |
-        - 担任研究生会主席
+        担任研究生会主席
         - OSGi的大规模语义计算平台：课题组与北大李涓子老师的合作项目，重写python、c的工具包到jar包，解决重复造轮子的问题。主要用于自然语言处理。（当时还没有Azure）
         - 两篇中文核心一篇EI论文。
         - 知识组织和机器学习方向
@@ -96,69 +96,80 @@ experiences:
         -   开发和维护运营商/短信接口，利用实体抽取、关系抽取等，优化信审报告。
         -   中介挖掘，反欺诈召回高于原人工、规则2倍，召回客户群组坏账率30+%
 
-          - Bullet point
-          - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: 机器学习工程师
+      time: 2015.06 - 2016.01
+      company: 北京至信普林信息技术有限公司
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        -   大成基金全球产业指数建模，特种工程和指数方向模型。离线最高浮盈130%，回测小于5%。项目成功验收，指数上线。
+        -   信元手机保障产品项目：信元用户画像；基于scrapy的app描述爬虫；对用户app进行分类。一层分类F值能达到0.98，较差的能达到0.78+， 均值0.85。项目验收
 
-          - Bullet point
-          - Bullet point
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+jiaoyus:
+    - degree: M.S. 数据挖掘
+      university: 中国科学技术信息研究所
+      time: 2013.09 - 2016.01
+      details: |
+        担任研究生会主席
+        - OSGi的大规模语义计算平台：课题组与北大李涓子老师的合作项目，重写python、c的工具包到jar包，解决重复造轮子的问题。主要用于自然语言处理。（当时还没有Azure）
+        - 两篇中文核心一篇EI论文。
+        - 知识组织和机器学习方向
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - degree: B.SC. 信息安全
+      university: 中南大学
+      time: 2009.09 - 2013.06
+      details: |
+        计算机相关课程：数据结构，操作系统，数据库，计算机网络。
+        信息安全相关课程：密码学，信息学，病毒攻防。
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
