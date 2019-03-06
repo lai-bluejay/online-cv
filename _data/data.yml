@@ -24,6 +24,17 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
+    languages:
+      - idiom: 机器学习
+        level: 业务场景建模
+
+      - idiom: 数据分析
+        level: 分析+可视化
+
+      - idiom: Python
+        level: 后端开发
+
+
     interests:
       - item: 足球
         link:
@@ -154,19 +165,19 @@ experiences:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: 掌握技能
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 95%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Machine Learning
+        level: 95%
 
-      - name: Angular
-        level: 98%
+      - name: Deep Learning
+        level: 85%
 
-      - name: HTML5 & CSS
+      - name: Data Analysis
         level: 95%
 
       - name: Ruby on Rails
