@@ -48,22 +48,18 @@ education:
       university: 中国科学技术信息研究所
       time: 2013.09 - 2016.01
       details: |
-        担任研究生会主席
-
-        OSGi的大规模语义计算平台：课题组与北大李涓子老师的合作项目，重写python、c的工具包到jar包，解决重复造轮子的问题。主要用于自然语言处理。（当时还没有Azure）
-        
-        两篇中文核心一篇EI论文。
-        
-        知识组织和机器学习方向
+        - 担任研究生会主席
+        - OSGi的大规模语义计算平台：课题组与北大李涓子老师的合作项目，重写python、c的工具包到jar包，解决重复造轮子的问题。主要用于自然语言处理。（当时还没有Azure）
+        - 两篇中文核心一篇EI论文。
+        - 知识组织和机器学习方向
 
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: B.SC. 信息安全
+      university: 中南大学
       time: 2009.09 - 2013.06
       details: |
         计算机相关课程：数据结构，操作系统，数据库，计算机网络。
-        
-        信息安全相关课程：密码学，信息学，病毒攻防。.
+        信息安全相关课程：密码学，信息学，病毒攻防。
 
 
 experiences:
@@ -77,27 +73,28 @@ experiences:
           - 搭建基础数据框架：基于oss的特征异步存取、任务管理框架、支持DAG的任务流框架airforce，实现模型自动更新，同时保证子模型模块的扩展性。
           - 对在催资产进行评估，推广话术推荐。与历史相比，资产价值的评估时间收敛到30日内。
         
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        分期商城项目风控负责人。团队4人：3算法，1分析。2017-11~2018-06.
+        
+          - 项目属于从零到一的新项目，搭建了整体的风控框架。
+          - 在用户质量不高（多平台均值高、黑名单高命中）的前提下，平衡了业务量和首逾，同时续贷逾期率低至8.x%。
+        
+        续贷用户风控算法。 2017-02 ~ 2017-10
 
-          - Bullet point
-          - Bullet point
+        **其他产出**
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - 机器学习框架Conan的开发。亮点：1.树分桶2. 多层EnsembleNet 3.自动调参 4.LUS采样
+          - faker_flask: 基于flask的快速api接口服务搭建。后迁移到新项目alfa，async flask-like api。
+          - 主导了任务流管理airforce，依托airflow，连接了数据获取框架OFM-Hieno，微软NNI。
+          - 贷后策略流服务:负责催收分案、案件流转、话术推荐、征信实体抽取、甲方案件评估
+
+
+    - role: 机器学习工程师
+      time: 2016.01 - 2017.02
+      company: 北京闪银奇异信息技术有限公司
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        -   负责开发维护o2o业务的打分策略和模型，去除了80%人工信审，降低首逾
+        -   开发和维护运营商/短信接口，利用实体抽取、关系抽取等，优化信审报告。
+        -   中介挖掘，反欺诈召回高于原人工、规则2倍，召回客户群组坏账率30+%
 
           - Bullet point
           - Bullet point
