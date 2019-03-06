@@ -32,7 +32,13 @@ sidebar:
         level: 分析+可视化
 
       - idiom: Python
-        level: 后端开发
+        level: 建模+后端开发
+
+      - idiom: 团队合作
+        level: 管理+沟通+跨团队
+
+      - idiom: 自主学习
+        level: 自学小程序开发、后端等
 
 
     interests:
@@ -59,7 +65,7 @@ education:
       university: 中国科学技术信息研究所
       time: 2013.09 - 2016.01
       details: |
-        担任研究生会主席
+        - 担任研究生会主席
         - OSGi的大规模语义计算平台：课题组与北大李涓子老师的合作项目，重写python、c的工具包到jar包，解决重复造轮子的问题。主要用于自然语言处理。（当时还没有Azure）
         - 两篇中文核心一篇EI论文。
         - 知识组织和机器学习方向
@@ -70,6 +76,7 @@ education:
       time: 2009.09 - 2013.06
       details: |
         计算机相关课程：数据结构，操作系统，数据库，计算机网络。
+
         信息安全相关课程：密码学，信息学，病毒攻防。
 
 
@@ -180,11 +187,6 @@ skills:
       - name: Data Analysis
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
