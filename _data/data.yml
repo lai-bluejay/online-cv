@@ -35,7 +35,7 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: 个人描述
     summary: |
       5年互联网金融行业机器学习实战经验，从无到有建立过线上o2o消费分期风控架构，
       搭建贷后资产评估体系和智能催收架构，稳定准确预估不同账龄资产包价值。
@@ -48,30 +48,35 @@ education:
       university: 中国科学技术信息研究所
       time: 2013.09 - 2016.01
       details: |
+        担任研究生会主席
 
-
-        -   担任研究生会主席
-        -   OSGi的大规模语义计算平台：课题组与北大李涓子老师的合作项目，重写python、c的工具包到jar包，解决重复造轮子的问题。主要用于自然语言处理。（当时还没有Azure）
-        -   两篇中文核心一篇EI论文。
-        -   知识组织和机器学习方向
+        OSGi的大规模语义计算平台：课题组与北大李涓子老师的合作项目，重写python、c的工具包到jar包，解决重复造轮子的问题。主要用于自然语言处理。（当时还没有Azure）
+        
+        两篇中文核心一篇EI论文。
+        
+        知识组织和机器学习方向
 
 
     - degree: BSc in Applied Mathematics
       university: Bristol University
       time: 2009.09 - 2013.06
       details: |
-
-
-        - 计算机相关课程：数据结构，操作系统，数据库，计算机网络。
-        - 信息安全相关课程：密码学，信息学，病毒攻防。.
+        计算机相关课程：数据结构，操作系统，数据库，计算机网络。
+        
+        信息安全相关课程：密码学，信息学，病毒攻防。.
 
 
 experiences:
     - role: 高级机器学习工程师
       time: 2017.02 - 至今
-      company: Startup Hubs, San Francisco
+      company: 北京智融时代信息技术有限公司
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        不良资产处置策略负责人。团队8人：3架构，3算法，2分析。2018.07 ~ 至今
+        
+          - 不良资产处理目标规划和review，确定主要方向，并和相关PM、研发、业务方同步和推进。
+          - 搭建基础数据框架：基于oss的特征异步存取、任务管理框架、支持DAG的任务流框架airforce，实现模型自动更新，同时保证子模型模块的扩展性。
+          - 对在催资产进行评估，推广话术推荐。与历史相比，资产价值的评估时间收敛到30日内。
+        
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
