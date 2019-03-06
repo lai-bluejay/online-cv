@@ -3,88 +3,72 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: 赖鸿昌
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: 机器学习工程师
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: lai.bluejay@gmail.com
+    phone: +8618500385413
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    linkedin:
+    github: lai-bluejay
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: 足球
         link:
 
-      - item: Snowboarding
+      - item: 徒步
         link:
 
-      - item: Cooking
+      - item: 马拉松
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      5年互联网金融行业机器学习实战经验，从无到有建立过线上o2o消费分期风控架构，
+      搭建贷后资产评估体系和智能催收架构，稳定准确预估不同账龄资产包价值。
+      能根据不同的业务模式和数据情况进行业务建模，无论是贷前风控还是贷后催收，
+      模型效果都很好地支持了业务发展。
 
-      Second paragraph if required.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: M.S. 数据挖掘
+      university: 中国科学技术信息研究所
+      time: 2013.09 - 2016.01
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+
+        -   担任研究生会主席
+        -   OSGi的大规模语义计算平台：课题组与北大李涓子老师的合作项目，重写python、c的工具包到jar包，解决重复造轮子的问题。主要用于自然语言处理。（当时还没有Azure）
+        -   两篇中文核心一篇EI论文。
+        -   知识组织和机器学习方向
+
 
     - degree: BSc in Applied Mathematics
       university: Bristol University
-      time: 2007 - 2011
+      time: 2009.09 - 2013.06
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+
+        - 计算机相关课程：数据结构，操作系统，数据库，计算机网络。
+        - 信息安全相关课程：密码学，信息学，病毒攻防。.
+
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
+    - role: 高级机器学习工程师
+      time: 2017.02 - 至今
       company: Startup Hubs, San Francisco
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
