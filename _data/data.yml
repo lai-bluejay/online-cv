@@ -171,21 +171,21 @@ experiences:
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: 掌握技能
+# skills:
+#     title: 掌握技能
 
-    toolset:
-      - name: Python
-        level: 95%
+#     toolset:
+#       - name: Python
+#         level: 95%
 
-      - name: Machine Learning
-        level: 95%
+#       - name: Machine Learning
+#         level: 95%
 
-      - name: Deep Learning
-        level: 85%
+#       - name: Deep Learning
+#         level: 85%
 
-      - name: Data Analysis
-        level: 95%
+#       - name: Data Analysis
+#         level: 95%
 
 
 footer: >
