@@ -84,14 +84,15 @@ experiences:
       details: |
         不良资产处置策略负责人。团队8人：3架构，3算法，2分析。2018.07 ~ 至今
         
-          - 不良资产处理目标规划和review，确定主要方向，并和相关PM、研发、业务方同步和推进。
           - 搭建基础数据框架：基于oss的特征异步存取、任务管理框架、支持DAG的任务流框架airforce，实现模型自动更新，同时保证子模型模块的扩展性。
-          - 对在催资产进行评估，推广话术推荐。与历史相比，资产价值的评估时间收敛到30日内。
+          - 提供AutoML框架Diego，提供自动的预处理和模型融合，把base auc提高了4个点。
+          - 对催收序列进行了序列建模，利用自编码器很好地模拟了催收强度，极大提高了1日回款预测准确率，提升了各阶段AUC。
         
         分期商城项目风控负责人。团队4人：3算法，1分析。2017-11~2018-06.
         
           - 项目属于从零到一的新项目，搭建了整体的风控框架。
-          - 在用户质量不高（多平台均值高、黑名单高命中）的前提下，平衡了业务量和首逾，同时续贷逾期率低至8.x%。
+          - 对于多数据源提出Cluster-Based-Model，验证了1.数据源聚类情况；2.各聚类数据集分模型训练后进行融合的结果优于base；3.验证随机下线数据源带来的稳定性影响。
+          - 业务早期探索了小样本学习、业务线间模型迁移，利用SquareGAN进行样本生成，在业务上线初期达到了其他业务线同等模型能力。
         
         续贷用户风控算法。 2017-02 ~ 2017-10
 
@@ -107,9 +108,9 @@ experiences:
       time: 2016.01 - 2017.02
       company: 北京闪银奇异信息技术有限公司
       details: |
-        -   负责开发维护o2o业务的打分策略和模型，去除了80%人工信审，降低首逾
+        -   负责开发维护o2o业务的打分策略和模型，通过特征工程和引入bayes优化进行gbdt的自动调参，提高了4个点的AUC，去除了80%人工信审，降低首逾
         -   开发和维护运营商/短信接口，利用实体抽取、关系抽取等，优化信审报告。
-        -   中介挖掘，反欺诈召回高于原人工、规则2倍，召回客户群组坏账率30+%
+        -   基于社群的中介挖掘，反欺诈召回高于原人工、规则2倍，召回客户群组坏账率30+%
 
 
     - role: 机器学习工程师
@@ -120,33 +121,19 @@ experiences:
         -   信元手机保障产品项目：信元用户画像；基于scrapy的app描述爬虫；对用户app进行分类。一层分类F值能达到0.98，较差的能达到0.78+， 均值0.85。项目验收
 
 
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+projects:
+    title: Projects
+    intro: >
+      个人的一些开源项目
 
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    assignments:
+      - title: diego
+        link: "https://github.com/lai-bluejay/diego"
+        tagline: "一个支持快速搭建自动学习任务的框架。只需要创建自动学习研究(Study)，同时生成相关子实验(Trials)，然后运行，便能的得到一个机器学习模型。采用Scikit-learn式的API进行实现."
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: qqmusicbox
+        link: "https://github.com/lai-bluejay/qqmusicbox"
+        tagline: "qq音乐命令行版本"
 
 # publications:
 #     title: Publications
